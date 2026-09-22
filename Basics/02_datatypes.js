@@ -12,3 +12,12 @@ let isLoggedIn = true // it is a boolean data type
 
 console.log(typeof null)
 // Type of null is "object" but type of undefined is "undefined" 
+
+/*We have data types based on the way they can be accessed and manipulated. There are two types of data types in js
+1. Primitive data types -> string, number, boolean, null, undefined, symbol, Bigint (They all can be called by value).
+2. Reference data types -> object, array, function (They all can be called by reference).*/
+
+
+/* Let's see how memory allocation has been done in JavaScript: There are two types of memory allocation , Stack and Heap.
+Stack is used for primitive data type and heap is for non primitive data type.
+*/
