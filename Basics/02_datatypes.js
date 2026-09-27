@@ -21,3 +21,11 @@ console.log(typeof null)
 /* Let's see how memory allocation has been done in JavaScript: There are two types of memory allocation , Stack and Heap.
 Stack is used for primitive data type and heap is for non primitive data type.
 */
+
+let myName = "Kriti"
+let myothername = myName
+myothername = "Kriti Pandey"
+
+// myName will still be "Kriti" because strings are primitive types and are passed by value
+console.log(myName) // Kriti
+console.log(myothername) // Kriti Pandey
